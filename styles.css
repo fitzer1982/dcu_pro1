@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{/*anything in the header class will take the below*/
+    overflow: hidden;
+    background: linear-gradient(to right,red,yellow, green, cyan, blue, violet); /*rainbow header */
+    padding: 20px 10px;
+}
+
+.nav-bar a { /*any a tag within the header class will take the below css*/
+    float: left;
+    color:black; 
+    text-align: center;
+    padding:12px;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.nav-bar a.company-name{/*anything in the header class with an a ref and a company name class*/
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-bar a:hover{/*anytime you hover above an a tag the background will be highlighted with the below*/
+    background-color: pink;
+}
+
+.nav-bar-right{ /*move the links to the right of the header*/
+    float: right;
+}
+.image-unicorn{
+    width:100%;
+    
+}
+.main-section{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+  }
+  .below-top{
+    position: absolute;
+    top:50px;
+    left: 16px;
+  }
