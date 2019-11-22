@@ -32,20 +32,20 @@ body{
 .nav-bar-right{ /*move the links to the right of the header*/
     float: right;
 }
-.main-section{
+.main-section{ /*control main section style*/
     position: relative;
     color: black;
 }
 
-.top-left {
+.top-left { /* additonal class to control that part of the page*/
     text-align: left;
     padding-left: 10px;
   }
-  .below-top{
+  .below-top{ /* additonal class to control that part of the page*/
     text-align: left;
     padding-left: 10px;
   }
 
-  h1, h2, h3{
+  h1, h2, h3{ /*ensuring all h tags have the same style*/
       padding-left: 10px;
   }
